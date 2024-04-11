@@ -1,6 +1,6 @@
 <?php
 
-namespace Hedger\Envicon;
+namespace CataP97\Envicon;
 
 use Illuminate\Support\Facades\App;
 

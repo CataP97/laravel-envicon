@@ -1,8 +1,8 @@
 <?php
 
-namespace Hedger\Envicon\Tests;
+namespace CataP97\Envicon\Tests;
 
-use Hedger\Envicon\Facades\Envicon;
+use CataP97\Envicon\Facades\Envicon;
 
 class EnviconTest extends TestCase
 {

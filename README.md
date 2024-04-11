@@ -6,9 +6,9 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/laravel-%209.x%20|%2010.x-FF2D20.svg?style=flat-square" alt="Support Laravel versions">
-<a href="https://packagist.org/packages/hedger/laravel-envicon"><img src="https://img.shields.io/packagist/v/hedger/laravel-envicon.svg?style=flat-square" alt="Latest Version on Packagist"></a>
+<a href="https://packagist.org/packages/catap97/laravel-envicon"><img src="https://img.shields.io/packagist/v/catap97/laravel-envicon.svg?style=flat-square" alt="Latest Version on Packagist"></a>
 <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="Software License"></a>
-<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/nhedger/laravel-envicon/integrate.yml?style=flat-square">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/ncatap97/laravel-envicon/integrate.yml?style=flat-square">
 </p>
 
 This package allows you to display a custom favicon depending on your
@@ -20,7 +20,7 @@ environment you're browsing.
 Via [Composer](https://getcomposer.org/)
 
 ```shell script
-composer require hedger/laravel-envicon
+composer require catap97/laravel-envicon
 ```
 
 Once the package is installed, you'll need to **publish the configuration**
@@ -74,10 +74,10 @@ composer test
 ## License
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/hedger/laravel-envicon.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/catap97/laravel-envicon.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-build]: https://img.shields.io/github/workflow/status/nhedger/laravel-envicon/Test/master?style=flat-square
+[ico-build]: https://img.shields.io/github/workflow/status/catap97/laravel-envicon/Test/master?style=flat-square
 [screenshot]: .github/screenshot.png
 
-[link-packagist]: https://packagist.org/packages/hedger/laravel-envicon
+[link-packagist]: https://packagist.org/packages/catap97/laravel-envicon
 

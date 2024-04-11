@@ -1,9 +1,14 @@
 {
-    "name": "hedger/laravel-envicon",
+    "name": "catap97/laravel-envicon",
     "description": "Use a different favicon depending on your current runtime environment",
-    "homepage": "https://github.com/nhedger/envicon",
+    "homepage": "https://github.com/CataP97/laravel-envicon",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Catalin Posta",
+            "email": "postacatalin3@gmail.com",
+            "role": "Developer"
+        },
         {
             "name": "Nicolas Hedger",
             "email": "nicolas@hedger.ch",
@@ -12,8 +17,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "~8.0 || ~8.1 || ~8.2",
-        "illuminate/support": "^9.0 || ^10.0"
+        "php": "~8.0 || ~8.1 || ~8.2 || ~8.3",
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0"
     },
     "require-dev": {
         "orchestra/testbench": "^7.0 || ^8.0",
@@ -21,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hedger\\Envicon\\": "src"
+            "CataP97\\Envicon\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hedger\\Envicon\\Tests\\": "tests"
+            "CataP97\\Envicon\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -39,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hedger\\Envicon\\ServiceProvider"
+                "CataP97\\Envicon\\ServiceProvider"
             ],
             "aliases": {
-                "Envicon": "Hedger\\Envicon\\Facades\\Envicon"
+                "Envicon": "CataP97\\Envicon\\Facades\\Envicon"
             }
         }
     }

@@ -1,18 +1,18 @@
 <?php
 
-namespace Hedger\Envicon\Tests;
+namespace CataP97\Envicon\Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)
     {
-        return ['Hedger\Envicon\ServiceProvider'];
+        return ['CataP97\Envicon\ServiceProvider'];
     }
 
     protected function getPackageAliases($app)
     {
         return [
-            'Envicon' => 'Hedger\Envicon\Facades\Envicon'
+            'Envicon' => 'CataP97\Envicon\Facades\Envicon'
         ];
     }
 }
